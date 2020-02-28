@@ -1,18 +1,104 @@
 # Dashboard
 Dashboard Project
 
-Resources
+## Modules
+* Weather
+* Twitter Feed
+* Facebook Feed
+* RSS Feed
+* To-Do
 
-https://home.openweathermap.org/
-api.openweathermap.org/data/2.5/weather?id=6167863&appid=3f2635c452b15905dfc6b23c042f2a24
+### Weather
+Method: JSON
+Class & Model: GetWeather.cs
+Function: PopulateWeather()
 
-https://jsonutils.com/
+Examples of API calls:
+api.openweathermap.org/data/2.5/weather?id={city id}&appid={your api key}
+
+API Response
+```json
+{
+coord: {
+lon: 145.77,
+lat: -16.92
+},
+weather: [
+{
+id: 802,
+main: "Clouds",
+description: "scattered clouds",
+icon: "03n"
+}
+],
+base: "stations",
+main: {
+temp: 300.15,
+pressure: 1007,
+humidity: 74,
+temp_min: 300.15,
+temp_max: 300.15
+},
+visibility: 10000,
+wind: {
+speed: 3.6,
+deg: 160
+},
+clouds: {
+all: 40
+},
+dt: 1485790200,
+sys: {
+type: 1,
+id: 8166,
+message: 0.2064,
+country: "AU",
+sunrise: 1485720272,
+sunset: 1485766550
+},
+id: 2172797,
+name: "Cairns",
+cod: 200
+}
+```
+**Usage**
+
+1. Form1 variables
+   - yourkeys
+   - hashtag
+   - tweetsQty
+
+url: https://home.openweathermap.org/  
+https://openweathermap.org/api  
+extended documentation: https://openweathermap.org/current
 
 
-help
-https://www.codeproject.com/Articles/1180283/How-to-Implement-OpenWeatherMap-API-in-ASP-NET-MVC
-https://www.codeproject.com/Tips/397574/Use-Csharp-to-get-JSON-Data-from-the-Web-and-Map-i
+### Twitter Feed
+Method: API
+
+**Usage**
+
+url:
+extended documentation: 
+
+### Facebook Feed
+In progress
+
+### RSS Feed
+Method: XML
+
+**Usage**
+
+url:
+extended documentation: 
+
+### To-Do
+In Progress
 
 
 
-https://www.c-sharpcorner.com/UploadFile/145c93/read-tweet-from-a-particular-hashtags/
+### Tools
+* https://jsonutils.com/
+
+### Help
+
