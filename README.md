@@ -11,7 +11,7 @@ Dashboard Project
 ### Weather
 Method: JSON  
 Class & Model: GetWeather.cs  
-Function: PopulateWeather()  
+Function: PopulateWeather()
 
 Examples of API calls:  
 api.openweathermap.org/data/2.5/weather?id={city id}&appid={your api key}
@@ -63,10 +63,16 @@ cod: 200
 ```
 **Usage**
 
-1. Form1 variables
-   - yourkeys
+1. Form1 variables   
    - hashtag
    - tweetsQty
+   
+Replace the following variables with your own keys:  
+
+**_consumerKey**
+**_consumerSecret**
+**_accessToken**
+**_accessTokenSecret**
 
 url: https://openweathermap.org/api  
 extended documentation: https://openweathermap.org/current
@@ -77,8 +83,8 @@ Method: API
 
 **Usage**  
 
-url:  
-extended documentation:   
+  
+extended documentation: https://developer.twitter.com/en/docs     
 
 ### Facebook Feed
 In progress
