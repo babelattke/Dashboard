@@ -9,11 +9,11 @@ Dashboard Project
 * To-Do
 
 ### Weather
-Method: JSON
-Class & Model: GetWeather.cs
-Function: PopulateWeather()
+Method: JSON  
+Class & Model: GetWeather.cs  
+Function: PopulateWeather()  
 
-Examples of API calls:
+Examples of API calls:  
 api.openweathermap.org/data/2.5/weather?id={city id}&appid={your api key}
 
 API Response
@@ -68,29 +68,28 @@ cod: 200
    - hashtag
    - tweetsQty
 
-url: https://home.openweathermap.org/  
-https://openweathermap.org/api  
+url: https://openweathermap.org/api  
 extended documentation: https://openweathermap.org/current
 
 
 ### Twitter Feed
-Method: API
+Method: API  
 
-**Usage**
+**Usage**  
 
-url:
-extended documentation: 
+url:  
+extended documentation:   
 
 ### Facebook Feed
 In progress
 
 ### RSS Feed
-Method: XML
+Method: XML  
 
-**Usage**
+**Usage**  
 
-url:
-extended documentation: 
+url:  
+extended documentation:   
 
 ### To-Do
 In Progress
@@ -98,7 +97,7 @@ In Progress
 
 
 ### Tools
-* https://jsonutils.com/
+* https://jsonutils.com/  
 
 ### Help
 
